@@ -1,0 +1,43 @@
+{
+  "name": "learn-starter",
+  "version": "0.1.0",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "dev": "next dev",
+    "start": "node server.js",
+    "build": "next build"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bootstrap": "^4.5.0",
+    "child_process": "^1.0.2",
+    "classnames": "^2.2.6",
+    "datatables.net": "^1.10.21",
+    "datatables.net-dt": "^1.10.21",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "fast-crc32c": "^2.0.0",
+    "firebase": "^7.16.0",
+    "firebase-admin": "^8.13.0",
+    "http2": "^3.3.7",
+    "jquery": "^3.5.1",
+    "next": "9.3.5",
+    "nodemon": "^2.0.4",
+    "postcss-flexbugs-fixes": "^4.2.1",
+    "postcss-preset-env": "^6.7.0",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "request": "^2.88.2",
+    "simple-autoloader": "^0.2.0",
+    "tailwindcss": "^1.4.6",
+    "threads": "^1.6.3",
+    "tiny-worker": "^2.3.0",
+    "worker-thread": "^1.1.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "worker-loader": "^2.0.0"
+  }
+}
